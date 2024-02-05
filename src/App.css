@@ -1,0 +1,497 @@
+/*============== General ==============*/
+/*============== General ==============*/
+/*============== General ==============*/
+
+.container {
+  max-width: 1135px;
+  margin: 0 auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  background-color: #eaedee;
+}
+
+.error-message {
+  color: red;
+  font-size: 20px;
+}
+
+/*============== Header ==============*/
+/*============== Header ==============*/
+/*============== Header ==============*/
+
+.header button {
+  color: #2db0ba;
+  font-size: 12px;
+  background-color: white;
+  border: 1px solid #2db0ba;
+}
+
+.header-vends button {
+  color: white;
+  background-color: #2db0ba;
+  border: none;
+  border-radius: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  background-color: white;
+}
+
+.div-header {
+  margin-left: 110px;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.input-articles input {
+  width: 450px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 20px;
+  background-color: lightgrey;
+  border: none;
+}
+
+.div-header img {
+  margin-top: 20px;
+}
+
+.button-header {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.button-header button {
+  margin-top: 35px;
+  width: 150px;
+  height: 20px;
+}
+
+.button-header .button-déconnecter {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/*============== Main ==============*/
+/*============== Main ==============*/
+/*============== Main ==============*/
+
+.list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 1524px;
+  height: 0 auto;
+}
+
+.home img {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+.img > img {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.img2 > img {
+  width: 250px;
+  height: 400px;
+}
+
+.main-list {
+  display: flex;
+  justify-content: center;
+}
+
+.list-prix :nth-child(1n + 2) {
+  color: rgb(146, 138, 138);
+}
+
+.header-image .img {
+  display: flex;
+}
+
+.header-image .img p {
+  margin-top: 22px;
+  margin-left: 5px;
+}
+
+/*============== Offer ==============*/
+/*============== Offer ==============*/
+/*============== Offer ==============*/
+.offer {
+  display: flex;
+  width: 1024px;
+  height: 0 auto;
+}
+
+section {
+  background-color: #ebedee;
+  display: flex;
+  justify-content: center;
+}
+
+section .img-taille img {
+  width: 500px;
+  height: 550px;
+  padding: 20px;
+}
+
+.product {
+  width: 350px;
+  height: 510px;
+  margin-top: 20px;
+  background-color: white;
+  padding: 50px;
+}
+
+.details p {
+  margin-bottom: 10px;
+}
+.details span {
+  color: #b1b1b1;
+}
+
+.price p {
+  margin-bottom: 20px;
+}
+
+.avatar-offer {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.avatar-offer img {
+  border: 2px solid lightblue;
+  width: 30px;
+  margin-right: 10px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.avatar-offer p {
+  margin-top: 5px;
+}
+
+.button-offer button {
+  width: 250px;
+  height: 30px;
+  color: white;
+  background-color: #22b1ba;
+  border: none;
+  cursor: pointer;
+}
+
+.button-offer button:hover {
+  background-color: #3e8e41;
+}
+
+.button-offer button:active {
+  background-color: #3e8e41;
+  transform: translateY(2px);
+}
+
+/*============== Signup ==============*/
+/*============== Signup ==============*/
+/*============== Signup ==============*/
+
+.signup {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.signup form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 250px;
+  gap: 10px;
+}
+
+.signup button {
+  padding: 8px;
+  width: 250px;
+  margin-bottom: 10px;
+  color: white;
+  background-color: #2db0ba;
+  border: none;
+  border-radius: 5px;
+}
+.signup-ins h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.signup-connecte-toi p {
+  color: #2db0ba;
+  margin-left: 45px;
+  font-size: 12px;
+}
+
+p {
+  font-size: 15px;
+  margin: 5px 0px 5px 0px;
+}
+
+/*============== Login ==============*/
+/*============== Login ==============*/
+/*============== Login ==============*/
+
+.login form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.main-login {
+  display: flex;
+  justify-content: center;
+}
+
+.login > h1 {
+  margin-left: 60px;
+  margin-bottom: 5px;
+  font-size: 30px;
+  margin: 50px 0px 30px 40px;
+}
+
+.login-button > button {
+  width: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 8px;
+  color: white;
+  background-color: #2db0ba;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-inscris-toi h1 {
+  color: #2db0ba;
+  margin-left: 45px;
+  font-size: 12px;
+}
+
+/*============== Publish ==============*/
+/*============== Publish ==============*/
+/*============== Publish ==============*/
+
+input#picture {
+  display: none;
+}
+
+.picture {
+  background-color: white;
+  color: #2db0ba;
+  border: 2px solid #2db0ba;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.publish {
+  display: flex;
+  justify-content: center;
+  background-color: #eaedee;
+}
+
+.publish > img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.publish-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px rgb(166, 161, 161) solid;
+  height: 250px;
+  width: 1280px;
+  background-color: white;
+}
+
+.publish-photo > button {
+  padding: 15px;
+  border: 1px solid #0f696f;
+  color: #0f696f;
+}
+
+/**************************************/
+
+.title {
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+.publish-title {
+  margin-top: 20px;
+  border: 1px rgb(166, 161, 161) solid;
+  background-color: white;
+  height: 250px;
+  width: 1135px;
+}
+
+.publish-title > div {
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  justify-content: space-between;
+}
+
+.publish-title h1 {
+  padding: 20px;
+}
+
+.publish-title input {
+  height: 30px;
+  width: 450px;
+  margin-top: 10px;
+  border: none;
+}
+
+/*******************************************/
+
+.publish-info {
+  margin-top: 20px;
+  border: 1px rgb(166, 161, 161) solid;
+  background-color: white;
+  height: 0 auto;
+  width: 1135px;
+}
+
+.publish-info > div {
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  justify-content: space-between;
+}
+
+.publish-info h1 {
+  padding: 20px;
+}
+
+.publish-info input {
+  height: 30px;
+  width: 450px;
+  margin-top: 10px;
+  border: none;
+}
+
+/*********************************************/
+
+.publish-prix {
+  margin-top: 20px;
+  border: 1px rgb(166, 161, 161) solid;
+  background-color: white;
+  height: 90px;
+  width: 1135px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.publish-prix h1 {
+  padding: 20px;
+}
+
+.input {
+  width: 40%;
+  margin-top: 10px;
+}
+
+input {
+  border: none;
+}
+
+.publish-checkbox {
+  margin-top: 20px;
+}
+
+/********************************************/
+
+.publish-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+}
+
+.publish-button button {
+  color: white;
+  background-color: #09b0ba;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+/******************* Payment **********************/
+/******************* Payment **********************/
+/******************* Payment **********************/
+
+.payment {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background-color: white;
+  padding: 20px;
+  margin-top: 30px;
+  margin-left: 30%;
+}
+
+.payment-frais {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  border-bottom: 1px lightgrey solid;
+}
+
+.payment-frais div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.effec {
+  color: red;
+}
+
+.button-valider {
+  width: 560px;
+  height: 30px;
+  margin-top: 20px;
+  color: white;
+  background-color: #3e8e41;
+  border: none;
+  border-radius: 5px;
+}
+
+.payment-color p span {
+  font-weight: bold;
+}
