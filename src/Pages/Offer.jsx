@@ -12,7 +12,7 @@ const Offer = ({ product, token }) => {
             offer._id === id && (
               <div key={index} className="offer">
                 <div className="img-taille">
-                  <img src={offer.product_pictures[0].secure_url} alt="photo" />
+                  <img src={offer.product_pictures} alt="photo" />
                 </div>
                 <div className="product">
                   <div className="price">

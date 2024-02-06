@@ -28,7 +28,7 @@ const Publish = ({ token }) => {
     formData.append("etat", etat);
     formData.append("lieu", lieu);
     formData.append("price", price);
-    // formData.append("user", token);
+    formData.append("userToken", token);
 
     try {
       if (
