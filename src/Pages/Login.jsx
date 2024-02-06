@@ -31,6 +31,7 @@ const Login = ({ setToken }) => {
           { expires: 1 },
           { secure: true }
         );
+        console.log(response.data);
         setToken(response.data.token);
         navigate("/");
       } else {
